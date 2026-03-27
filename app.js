@@ -24,7 +24,7 @@ const Promise3 = (value) => {
 };
 
 Promise1(5)
-    .then((result1) => {       
+    .then((result1) => {
         return Promise2(result1);
     })
     .then((result2) => {
