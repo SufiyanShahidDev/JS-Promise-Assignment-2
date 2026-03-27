@@ -1,3 +1,4 @@
+
 const Promise1 = (value) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
